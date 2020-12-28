@@ -55,17 +55,40 @@ table {
 }
 
 .nav-flex {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     flex-wrap: nowrap;
-    height: 50px;
+    height: 100px;
+    /* padding-left: 10px; */
+    padding-right: 10px;
 }
 
 .white {
     color: white;
     width: auto;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
     font-weight: 700;
+    font-size: 2rem;
+}
+
+.logo {
+    height: 100%;
+    border: none;
+    width: auto;
+}
+
+
+
+
+
+
+/* smallest screen */
+@media screen and (max-width: 480px) {
+    white {
+        color: black;
+        width: auto;
+        font-weight: 100;
+        font-size: 1rem;
+    }
 }
