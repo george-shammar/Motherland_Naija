@@ -60,16 +60,15 @@ table {
     align-items: center;
     width: 100%;
     flex-wrap: nowrap;
-    height: 100px;
+    height: 80px;
     /* padding-left: 10px; */
     padding-right: 10px;
 }
 
 .white {
-    color: white;
     width: auto;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .logo {
@@ -84,11 +83,49 @@ table {
 
 
 /* smallest screen */
-@media screen and (max-width: 480px) {
-    white {
-        color: black;
-        width: auto;
-        font-weight: 100;
-        font-size: 1rem;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+  .nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: 100px;
+    padding-right: 10px;
+  }
+
+  .white {
+    width: auto;
+    font-weight: 900;
+    font-size: 2rem;
     }
+/*   
+  .menu {
+    display: none;
+  } */
+}
+
+/* smallest screen */
+@media screen and (min-width: 768px) {
+
+  .nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: 100px;
+    padding-right: 10px;
+  }
+
+  .white {
+    width: auto;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .menu {
+      display: none;
+  }
 }
