@@ -46,3 +46,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* main project */
+/* topnav */
+
+.search {
+  margin-right: 0;
+  margin-right: none;
+}
+.search_icon {
+  color: white;
+  background-color: #f72210;
+  padding: 6px;
+  margin-left: 0;
+}
+
+.topnav_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.right_topnav {
+  display: flex;
+}
+
+.login {
+  margin-left: 5px;
+}
