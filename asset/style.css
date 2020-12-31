@@ -49,16 +49,25 @@ table {
 
 /* main project */
 /* topnav */
-
-.search {
-  margin-right: 0;
-  margin-right: none;
+.search_topnav {
+  display: flex;
 }
-.search_icon {
+.search {
+  border: thick 0.1px grey;
+  border-style: inset;
+}
+.icon {
   color: white;
-  background-color: #f72210;
   padding: 6px;
-  margin-left: 0;
+  margin-left: 1px;
+}
+
+.background_red {
+  background-color: #f72210;
+}
+
+.background_black {
+  background-color: black;
 }
 
 .topnav_flex {
