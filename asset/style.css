@@ -101,6 +101,20 @@ font {
   padding-top: 20px;
 }
 
+.motherland {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width: 89%;
+  font-size: 1.2rem
+}
+
+.small_screen {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
 .nav_flex {
   margin-top: 10px;
   display: flex;
@@ -108,12 +122,62 @@ font {
   justify-content: space-between;
 }
 
-.motherland {
-  padding-top: 80px;
-  padding-bottom: 20px;
-  width: 89%;
+.large_device {
+  display: none;
 }
 
-.nav_grid {
-  padd
+
+
+
+
+/* extra small screen */
+@media screen and (max-width: 380px) {
+  .topnav_flex {
+    display: block;
+  }
+
+  .right_topnav {
+    margin-top: 10px;
+  }
+
+  .search_topnav {
+    display: none;;
+  }
+
+  .top_nav {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+
+/* tablet */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .large_device {
+    display: none;
+  }
+
+  .motherland {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+/* desktop */
+@media screen and (min-width: 768px) {
+  .mobile_device {
+    display: none;
+  }
+  .large_device {
+    display: flex;
+  }
+
+  .motherland {
+    font-size: 2rem;
+  }
 }
