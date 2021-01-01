@@ -57,7 +57,6 @@ table {
   border-style: inset;
 }
 .icon {
-  color: white;
   padding: 6px;
   margin-left: 1px;
 }
@@ -68,6 +67,10 @@ table {
 
 .background_black {
   background-color: black;
+}
+
+.white {
+  color: white;
 }
 
 .topnav_flex {
@@ -86,4 +89,31 @@ table {
 
 font {
   font-family: 'Open Sans', sans-serif;
+}
+
+.quick_link {
+  width: 10%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.link {
+  padding-top: 20px;
+}
+
+.nav_flex {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.motherland {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  width: 89%;
+}
+
+.nav_grid {
+  padd
 }
