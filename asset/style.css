@@ -152,6 +152,10 @@ font {
   padding: 10px;
 }
 
+.fix {
+  position: static;
+}
+
 
 
 
