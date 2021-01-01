@@ -126,6 +126,20 @@ font {
   display: none;
 }
 
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.rooms {
+  display: none;
+}
+
 
 
 
@@ -180,4 +194,17 @@ font {
   .motherland {
     font-size: 2rem;
   }
+
+  .navlinks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .rooms {
+    display: block;
+  }
+
 }
