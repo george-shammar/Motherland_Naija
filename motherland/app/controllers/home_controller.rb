@@ -10,4 +10,7 @@ class HomeController < ApplicationController
 
   def education
   end
+
+  def others
+  end
 end
