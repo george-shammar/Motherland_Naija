@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def travel
   end
+
+  def education
+  end
 end
