@@ -18,7 +18,11 @@
 
   <body>
   <%= render 'home/header'%>
-  <%= render 'layouts/alerts' %>
+  </br>
+  <% if notice %>
+    <%= render 'layouts/alerts' %>
+  <% end %>
+
   <div class = "container-fluid">
     <%= yield %>
   </div>
